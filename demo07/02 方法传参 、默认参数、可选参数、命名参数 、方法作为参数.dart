@@ -71,6 +71,8 @@ main() {
   }
   print(printUserInfo5('张三', age: 20, sex: '未知'));
   print(printUserInfo5('李四', sex: 'nan', age: 20));
+  print(printUserInfo5('李四', age: 20));
+  // print(printUserInfo5('李四', age1: 20));//The named parameter 'age1' isn't defined.
   print("----------------------------------");
 //6、实现一个 把方法当做参数的方法
 
